@@ -34,7 +34,7 @@ public class Bowling : MonoBehaviour
         }
     }
 
-    private void ShootBall()
+    public void ShootBall()
     {
         rb.AddForce(Vector3.forward * forcePower, ForceMode.Impulse);
     }
